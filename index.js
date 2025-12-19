@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Hello API is running 🚀");
+  res.send("Hello API is running ");
 });
 
 const PORT = 80;
