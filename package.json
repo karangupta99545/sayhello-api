@@ -1,23 +1,11 @@
 {
   "name": "sayhello-api",
   "version": "1.0.0",
-  "description": "Simple Hello API",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "^4.22.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/karangupta99545/sayhello-api.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/karangupta99545/sayhello-api/issues"
-  },
-  "homepage": "https://github.com/karangupta99545/sayhello-api#readme"
+    "express": "^4.18.2"
+  }
 }

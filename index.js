@@ -1,12 +1,11 @@
 const express = require("express");
 const app = express();
 
-// Route
-app.get("/sayHello", (req, res) => {
-  res.json({ message: "Hello User." });
+app.get("/", (req, res) => {
+  res.send("Hello API is running 🚀");
 });
 
-// Run on Port 80
-app.listen(80, () => {
-  console.log("Server running on port 80");
+const PORT = 80;
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
 });
